@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ header{
+    background-color:#f5eaea
+    ;
+    padding: 36px;
+    margin: auto;
+ }
+ .container{
+max-width: 1600px;
+  margin: auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ nav ul{
+   list-style: none;
+  display: flex;
+  gap: 32px;
+  
+ }
+ nav ul a{
+   text-decoration: none;
+
+ }
+ nav ul{
+   text-decoration: none;
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+ }
+ .logo img{
+    width: auto;
+    height: 42px;
+ }
+ .btn
+ {
+    background-color: #2e7d32;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+   
+ }
+ .banner{
+   background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(assets/hero-bg.png);
+    padding: 70px 120px 137px 120px;
+ }
+ .banner h1{
+   font-size: 48px;
+    margin: 20px 0;
+ }
+ .banner p{
+   max-width: 700px;
+    margin: 20px auto;
+    font-size: 18px;
+    opacity: 0.9;
+ }
+ .banner-actions{
+  display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+ }
+ .banner-actions .btn-secent{
+  background-color: #2e7d32;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+ }
+ .banner-actions .btn-third{
+  background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+     
+ }
+ .class-one{
+padding: 80px 0;
+ }
+ .class-two{
+display: flex;
+    align-items: center;
+    gap: 50px;
+ }
+ .class-image{
+max-width: 100%;
+    height: auto;
+ }
+ 
+ .class-sixe{
+color: #4CAF50;
+    font-weight: bold;
+    font-size: 14px;
+ }
+ .class-five h2{
+  font-size: 36px;
+    margin: 15px 0;
+    color: #0A1929;
+ }
+ .class-fore{
+  list-style: none;
+    margin-top: 25px;
+ }
+ .class-fore li{
+  display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-weight: 500;
+ }
+ .class-fore img{
+  width: 20px;
+ }
+ 
